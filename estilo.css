@@ -100,8 +100,8 @@
             text-align: center;
         }
         
-        #inicio .contenido .presentacion h2 span {
-            font-size: 25px;
+        #inicio .contenido .presentacion  span {
+         
             color: #ff5080;
         }
         
@@ -180,6 +180,7 @@
         
         #sobremi .sobremi h2 span {
             color: #ff5080;
+            font-size: 35px;
         }
         
         #sobremi .sobremi h3 {
@@ -603,7 +604,8 @@
             }
             #sobremi .contenedor-foto {
                 max-width: 200px;
-                margin: auto;
+                display: grid;
+                margin: 0 35% 0 auto;
             }
             #sobremi .contenedor-foto img {
                 padding: 8px;
